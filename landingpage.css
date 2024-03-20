@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+body{
+    background: rgb(27, 25, 25);
+    width: 100%;
+    height: 1500px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: white;
+}
+ul li{
+    list-style: none;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.getstarted{
+    border: 1px solid white;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.paragraph{
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 210px;
+} 
+/* .circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid white;
+} */
+.circle img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+  
+.main{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.circlemain{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.button{
+    border-radius: 20px;
+    width: 170px;
+    height: 60px;
+    border: none;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    gap: 120px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 60px;
+
+}
+
+
+
+.paragraph2{
+    width: 470px;
+    height: 570px;
+    background-color: gainsboro;
+    border-radius: 40px;
+    position: relative;
+    
+   
+}
+.paragraph2 img{
+    width: 250px;
+    height: 330px;
+    border-radius: 50px;
+    right: 310px;
+    margin-top: 60px;
+    position: absolute;
+}
+.image{
+    position: absolute;
+    margin-left:750px;
+    width: 20px;
+    height: 40px;
+    margin-top: 110px;
+}
+.mainbox{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px
+}
+.box{
+    width: 300px;
+    height: 360px;
+    background-color: rgb(44, 42, 42);
+    border-radius: 30px;
+    color: white;
+}
+.box h2{
+    margin-left: 30px;
+}
+.box p{
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.box a i{
+    margin: 60px 40px;
+    font-size: 40px;
+    color: white;
+}
